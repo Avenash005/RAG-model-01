@@ -19,7 +19,7 @@ load_dotenv()
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 COLLECTION_NAME = "pdf_rag_documents"
 CHROMA_PATH = Path(__file__).parent / "chroma_db"
-FALLBACK_ANSWER = "I cannot find that in the provided documents."
+FALLBACK_ANSWER = "I couldn't find that information in the available documents."
 
 
 @dataclass(frozen=True)
